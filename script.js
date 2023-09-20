@@ -8,18 +8,72 @@ var typed = new Typed("#element", {
     "UG Student",
     "Web Developer",
     "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer",
+    "UG Student",
+    "Web Developer",
+    "Competitive Progammer"
   ],
-  typeSpeed: 100,
+  typeSpeed: 60,
 });
 
 // --------------------------------------------------------------------------------------------
 
 // ----------------------------------mobile-menu------------------------------------------
 
+// JavaScript for mobile menu toggle
 const mobileMenuToggle = document.getElementById("mobileMenuToggle");
 const navbarMenu = document.getElementById("navbarMenu");
+
 mobileMenuToggle.addEventListener("click", () => {
-  navbarMenu.classList.toggle("show");
+  if (navbarMenu.style.display === "block") {
+    navbarMenu.style.display = "none";
+  } else {
+    navbarMenu.style.display = "block";
+  }
 });
 
 // --------------------------------------------------------------------------------------------

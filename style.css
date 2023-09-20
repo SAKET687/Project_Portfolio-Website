@@ -36,16 +36,16 @@ nav ul li {
   margin: 60px 0;
 }
 .firstSection > div {
-  width: 37%;
+  width: 38%;
 }
 .leftSection {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 .rightSection {
   display: flex;
 }
 .rightSection img {
-  width: 80%;
+  width: 110%;
 }
 .purple {
   color: rgb(165, 103, 224);
@@ -106,7 +106,7 @@ main hr {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  margin-right: 10px; /* Adjust this margin as needed */
+  margin-right: 10px;
 }
 
 .mobile-menu-toggle .bar {
@@ -117,32 +117,29 @@ main hr {
 }
 
 @media (max-width: 768px) {
-  /* Hide the desktop menu items and show the mobile menu button */
   .navbar-menu {
-      display: none;
-      position: absolute;
-      top: 60px; /* Adjust this value as needed */
-      right: 10px; /* Adjust this value as needed */
-      background-color: #1958ea; /* Set background color for the mobile menu */
-      z-index: 1;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: rgb(41, 61, 174);
+    z-index: 1;
   }
-
+  .leftSection {
+    font-size: 0.805rem;
+  }
   .navbar-menu.show {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
-
   .navbar-menu li {
-      margin: 10px;
-      padding-right: 125px;
-      /* text-align: center; */
+    margin: 10px;
+    padding-right: 130px;
   }
-
   .mobile-menu-toggle {
-      display: flex;
+    display: flex;
   }
-
   .navbar-toggle {
     display: flex;
-}
+  }
 }
